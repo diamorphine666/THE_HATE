@@ -33,3 +33,4 @@ All traffic looks like normal DNS requests + HTTPS to `imgbb.com` – no raw TCP
 - **Lightweight** – pure Python, minimal dependencies.
 
 ---
+!!! You need register on imgbb and get your API token for use. (replace placeholder in client.py and server.py)
