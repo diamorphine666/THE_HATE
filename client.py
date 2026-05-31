@@ -25,7 +25,7 @@ async def upload_image(output):
 				'type': 'file',
 				'action': 'upload',
 				'timestamp': str(int(time.time() * 1000)),
-				'auth_token': '35309ae7342a854a252d32a9b3beac1017dd4f73'
+				'auth_token': <your imgbb api token>
 			}
 			r = await client.post(url=url, files=file, data=data)
 			img_json = r.json()
