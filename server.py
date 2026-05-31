@@ -72,7 +72,7 @@ class txtresolver:
                 
         return reply
 
-parser = argparse.ArgumentParser(description="Covert C2 over DNS and image hosting (Antisocial)")
+parser = argparse.ArgumentParser(description="Covert C2 over DNS and image hosting (THE_HATE C2)")
 parser.add_argument("-l", "--lhost", required=True, help="Local IP for DNS server")
 parser.add_argument("-p", "--lport", required=True, type=int, help="Local port for DNS server")
 parser.add_argument("-i", "--image-file", required=True, help="Cover image file (JPEG/PNG)")
