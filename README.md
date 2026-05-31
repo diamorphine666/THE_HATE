@@ -1,11 +1,11 @@
-# Antisocial C2
+# THE_HATE C2
 
 **DNS Tunneling + Image Hosting (imgbb) Covert Command & Control**
 
 [![License: Educational Use Only](https://img.shields.io/badge/License-Educational%20Use%20Only-red.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-Antisocial C2 is a proof-of-concept covert C2 channel that blends malicious traffic with legitimate DNS queries and HTTPS uploads to imgbb. Commands are embedded into cover images, uploaded to a free image hosting service, and retrieved by the agent via DNS TXT records.
+THE_HATE C2 is a proof-of-concept covert C2 channel that blends malicious traffic with legitimate DNS queries and HTTPS uploads to imgbb. Commands are embedded into cover images, uploaded to a free image hosting service, and retrieved by the agent via DNS TXT records.
 
 > **⚠️ DISCLAIMER:** This tool is for **educational purposes only**. Use only on systems you own or have explicit permission to test. The author is not responsible for any misuse or damage.
 
